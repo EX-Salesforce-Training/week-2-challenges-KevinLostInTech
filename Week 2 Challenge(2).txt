@@ -1,0 +1,11 @@
+//Name:Week 2 Challenege
+//Author: Kevin Johnson
+//Date: 02/28/2020
+
+public abstract class Home {
+
+    public virtual void methodOne(integer i){
+        integer b= 8;
+    }
+    abstract void methodTwo(String s, integer i);
+}

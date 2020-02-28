@@ -1,0 +1,26 @@
+//Name:Week 2 Challenege
+//Author: Kevin Johnson
+//Date: 02/28/2020
+
+public class HomeChild extends Home {
+    String name;
+    integer quantity;
+    
+   HomeChild(){
+        this('Townhouse');
+    }
+    HomeChild(String homeType){
+        this(homeType, 20);
+    }
+    HomeChild(String homeType, integer amountOfHouses){
+        this.name=homeType;
+        this.quantity=amountOfHouses;
+    }
+    
+    public void methodTwo(String s, integer i){
+        
+    }
+    public override void methodOne(integer i){
+        i=9;
+    }
+}
